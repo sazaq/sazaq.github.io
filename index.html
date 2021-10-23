@@ -1,12 +1,43 @@
 <!doctype html>
 <html lang="en">
-
+<SCRIPT LANGUAGE="Javascript"><!--
+// ***********************************************
+// Bu kodu aliegesazak.cf adresinden aldınız..
+// ***********************************************
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+var EnableRightClick = 0;
+if(isNS)
+document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+if(EnableRightClick==1){ return true; }
+else {return false; }
+}
+function mousehandler(e){
+if(EnableRightClick==1){ return true; }
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+function keyhandler(e) {
+var myevent = (isNS) ? e : window.event;
+if (myevent.keyCode==96)
+EnableRightClick = 1;
+return;
+}
+document.oncontextmenu = mischandler;
+document.onkeypress = keyhandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+//-->
+</script>
 <head>
 	<title>SazaQ</title>
 	
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="https://sazaq.github.io/sazaq.png" type="image/png">
+	<link rel="icon" href="https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png" type="image/png">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
@@ -14,7 +45,7 @@
 
 <meta property="og:title" content="SazaQ">
 <meta property="og:description" content="SazaQ">
-<meta property="og:image" content="https://sazaq.github.io/sazaq.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png">
 <meta property="og:image:width" content="1000">
 <meta property="og:image:height" content="1000">
 <meta property="og:url" content="https://sazaq.github.io">
@@ -41,16 +72,18 @@
 
 <article>
 	<div>
-        <a class="button instagram" href="https://instagram.com/arda_sazak/" target="_blank"><i class="fab fa-instagram"></i> İnstagram</a>
+        <a class="button instagram" href="https://instagram.com/arda_sazak" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
 	</div>
 	</div>
-	<a class="button discord" href="https://discord.gg/agjfbsgDtT" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+	<a class="button snapchat" href="https://www.snapchat.com/add/arda_sazakk?share_id=N-boEEjHJR8&locale=tr-TR" target="_blank"><i class="fab fa-snapchat"></i> Snapchat</a>
 	</div>
 	</div>
-	<a class="button youtube" href="https://www.youtube.com/channel/UCZ_W-xmm7TihDihcGPDwj5g" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
+	<a class="button twitter" href="https://twitter.com/ArdaSazak71" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
         </div>
-        </div>
+		</div>
 	<a class="button twitch" href="https://twitch.tv/zzsazaq" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+        </div>
+	<a class="button tiktok" href="https://www.tiktok.com/@arda_sazak?" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
         </div>
 </article>
 
@@ -65,16 +98,13 @@
 
 <audio controls="controls" autoplay="autoplay">
 
-<source src="ralli.ogg" type="audio/ogg">
+<source src="dalga.ogg" type="audio/ogg">
 
-<source src="ralli.mp3" type="audio/mp3">
+<source src="dalga.mp3" type="audio/mp3">
 
 Tarayıcınız audio etiketini desteklememektedir.
 
 </audio>
-
-<marquee direction="1" behavior="alternate">
-<a href="http://zentoxdev.github.io">Developed By ZentoX</a></marquee>
 
 </body>
 
