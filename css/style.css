@@ -1,5 +1,5 @@
 body{
-  background: url(https://sazaq.github.io/arkaplan.jpg) no-repeat;
+  background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/arkaplan.jpg) no-repeat;
   padding: 0px;
   margin: 0px;
 }
@@ -41,142 +41,847 @@ h6 {
   font-family: 'Lexend Deca', sans-serif;
  }
 
-audio {
-  color: #0066ff;
-  position: fixed;
-  top: 520px;
-  right: 808px;
-}
+@media screen and (min-width: 1336px) {
 
-.title {
-  color: #fff;
-  position: fixed;
-  top: 340px;
-  right: 900px;
-  font-size: 40px;
-  font-family: 'Lexend Deca', sans-serif;
-}
+    audio {
+      color: #0066ff;
+      position: fixed;
+      top: 520px;
+      right: 808px;
+    }
+    
+    .title {
+      color: #fff;
+      position: fixed;
+      top: 340px;
+      right: 854px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .title:hover {
+      color: rgb(255, 0, 98);
+      position: fixed;
+      top: 340px;
+      right: 854px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .dairesel {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #0d1117;
+      position: fixed;
+      top: 100px;
+      right: 830px;
+      transition: all 0.3s;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png) no-repeat;
+      }
+    
+    .dairesel:hover {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #ff0062;
+      position: fixed;
+      top: 100px;
+      right: 830px;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.gif) no-repeat;
+      }
+    
+    .button {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #efc20f;
+      font-size: 15px;
+      padding: 10px 24px;
+      border-radius: 2px;
+      transition-duration: 0.4s;
+      float: right 20px;
+      position: fixed;
+      top: 450px;
+      float: left 10px;
+    }
+      
+    .button:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+    }
+      
+    .button.instagram {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #F58529;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 700px;
+    }
+    
+    .button.instagram:hover {
+      color: #fff;
+      background-color: #df7927;
+    }
+    
+    .button.snapchat {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #dbd800;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 822px;
+    }
+    
+    .button.snapchat:hover {
+      color: #fff;
+      background-color: #b9b602;
+    }
+    
+    .button.twitter {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #08a0e9;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 936px;
+    }
+    
+    .button.twitter:hover {
+      color: #fff;
+      background-color: #0084B4;
+    }
+    
+    .button.twitch {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #cc00ff;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 1030px;
+    }
+    
+    .button.twitch:hover {
+      color: #fff;
+      background-color: #8700bd;
+    }  
+    .button.tiktok {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #EE1D52;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 1121px;
+    }
+    
+    .button.tiktok:hover {
+      color: #fff;
+      background-color: #d31a48;
+    }
+    
+    .loader {
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #06090f;
+    }
+  } 
 
-.dairesel {
-  width: 250px;
-  height: 250px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  border: 5px solid #0d1117;
-  position: fixed;
-  top: 100px;
-  right: 830px;
-  transition: all 0.3s;
-  background: url(https://sazaq.github.io/sazaq.png) no-repeat;
+@media screen and (min-width: 960px) and (max-width : 1365px) {
+
+    audio {
+      color: #0066ff;
+      position: fixed;
+      top: 520px;
+      right: 608px;
+    }
+    
+    .title {
+      color: #fff;
+      position: fixed;
+      top: 340px;
+      right: 650px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .title:hover {
+      color: rgb(255, 0, 98);
+      position: fixed;
+      top: 340px;
+      right: 650px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .dairesel {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #0d1117;
+      position: fixed;
+      top: 100px;
+      right: 630px;
+      transition: all 0.3s;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png) no-repeat;
+      }
+    
+    .dairesel:hover {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #ff0062;
+      position: fixed;
+      top: 100px;
+      right: 630px;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.gif) no-repeat;
+      }
+    
+    .button {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #efc20f;
+      font-size: 15px;
+      padding: 10px 24px;
+      border-radius: 2px;
+      transition-duration: 0.4s;
+      float: right 20px;
+      position: fixed;
+      top: 450px;
+      float: left 10px;
+    }
+      
+    .button:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+    }
+      
+    .button.instagram {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #F58529;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 400px;
+    }
+    
+    .button.instagram:hover {
+      color: #fff;
+      background-color: #df7927;
+    }
+    
+    .button.snapchat {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #dbd800;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 522px;
+    }
+    
+    .button.snapchat:hover {
+      color: #fff;
+      background-color: #b9b602;
+    }
+    
+    .button.twitter {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #08a0e9;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 636px;
+    }
+    
+    .button.twitter:hover {
+      color: #fff;
+      background-color: #0084B4;
+    }
+    
+    .button.twitch {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #cc00ff;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 730px;
+    }
+    
+    .button.twitch:hover {
+      color: #fff;
+      background-color: #8700bd;
+    }  
+    .button.tiktok {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #EE1D52;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 821px;
+    }
+    
+    .button.tiktok:hover {
+      color: #fff;
+      background-color: #d31a48;
+    }
+    
+    .loader {
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #06090f;
+    }
   }
 
-.dairesel:hover {
-  width: 250px;
-  height: 250px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  border: 5px solid #0066ff;
-  position: fixed;
-  top: 100px;
-  right: 830px;
-  background: url(https://sazaq.github.io/sazaq.gif) no-repeat;
+@media screen and (min-width: 725px) and (max-width : 959px) {
+
+    audio {
+      color: #0066ff;
+      position: fixed;
+      top: 520px;
+      right: 408px;
+    }
+    
+    .title {
+      color: #fff;
+      position: fixed;
+      top: 340px;
+      right: 450px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .title:hover {
+      color: rgb(255, 0, 98);
+      position: fixed;
+      top: 340px;
+      right: 450px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .dairesel {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #0d1117;
+      position: fixed;
+      top: 100px;
+      right: 430px;
+      transition: all 0.3s;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png) no-repeat;
+      }
+    
+    .dairesel:hover {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #ff0062;
+      position: fixed;
+      top: 100px;
+      right: 430px;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.gif) no-repeat;
+      }
+    
+    .button {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #efc20f;
+      font-size: 15px;
+      padding: 10px 24px;
+      border-radius: 2px;
+      transition-duration: 0.4s;
+      float: right 20px;
+      position: fixed;
+      top: 450px;
+      float: left 10px;
+    }
+      
+    .button:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+    }
+      
+    .button.instagram {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #F58529;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 200px;
+    }
+    
+    .button.instagram:hover {
+      color: #fff;
+      background-color: #df7927;
+    }
+    
+    .button.snapchat {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #dbd800;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 322px;
+    }
+    
+    .button.snapchat:hover {
+      color: #fff;
+      background-color: #b9b602;
+    }
+    
+    .button.twitter {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #08a0e9;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 436px;
+    }
+    
+    .button.twitter:hover {
+      color: #fff;
+      background-color: #0084B4;
+    }
+    
+    .button.twitch {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #cc00ff;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 530px;
+    }
+    
+    .button.twitch:hover {
+      color: #fff;
+      background-color: #8700bd;
+    }  
+    .button.tiktok {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #EE1D52;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 621px;
+    }
+    
+    .button.tiktok:hover {
+      color: #fff;
+      background-color: #d31a48;
+    }
+    
+    .loader {
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #06090f;
+    }
   }
 
-.button {
-  color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
-  background-color: #efc20f;
-  font-size: 15px;
-  padding: 10px 24px;
-  border-radius: 2px;
-  transition-duration: 0.4s;
-  float: right 20px;
-  position: fixed;
-  top: 450px;
-  float: left 10px;
-}
-  
-.button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-  
-.button.instagram {
-  color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
-  background-color: #405DE6;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-  float: left 10px;
-  left: 702px;
-}
+@media screen and (min-width: 550px) and (max-width : 724px) {
+    
+    audio {
+      color: #0066ff;
+      position: fixed;
+      top: 520px;
+      right: 158px;
+    }
+    
+    .title {
+      color: #fff;
+      position: fixed;
+      top: 340px;
+      right: 210px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .title:hover {
+      color: rgb(255, 0, 98);
+      position: fixed;
+      top: 340px;
+      right: 210px;
+      font-size: 40px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .dairesel {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #0d1117;
+      position: fixed;
+      top: 100px;
+      right: 165px;
+      transition: all 0.3s;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.png) no-repeat;
+      }
+    
+    .dairesel:hover {
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border: 5px solid #ff0062;
+      position: fixed;
+      top: 100px;
+      right: 165px;
+      background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/sazaq.gif) no-repeat;
+      }
+    
+    .button {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #efc20f;
+      font-size: 15px;
+      padding: 10px 24px;
+      border-radius: 2px;
+      transition-duration: 0.4s;
+      float: right 20px;
+      position: fixed;
+      top: 450px;
+      float: left 10px;
+    }
+      
+    .button:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+    }
+      
+    .button.instagram {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #F58529;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 25px;
+    }
+    
+    .button.instagram:hover {
+      color: #fff;
+      background-color: #df7927;
+    }
+    
+    .button.snapchat {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #dbd800;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 147px;
+    }
+    
+    .button.snapchat:hover {
+      color: #fff;
+      background-color: #b9b602;
+    }
+    
+    .button.twitter {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #08a0e9;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 261px;
+    }
+    
+    .button.twitter:hover {
+      color: #fff;
+      background-color: #0084B4;
+    }
+    
+    .button.twitch {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #cc00ff;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 355px;
+    }
+    
+    .button.twitch:hover {
+      color: #fff;
+      background-color: #8700bd;
+    }  
+    .button.tiktok {
+      color: #fff;
+      font-family: 'Lexend Deca', sans-serif;
+      background-color: #EE1D52;
+      font-size: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      float: left 10px;
+      left: 447px;
+    }
+    
+    .button.tiktok:hover {
+      color: #fff;
+      background-color: #d31a48;
+    }
+    
+    .loader {
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #06090f;
+    }
+  }
 
-.button.instagram:hover {
-  color: #fff;
-  background-color: #3951c9;
-}
+@media screen and (min-width: 160px) and (max-width : 550px) {
 
-.button.discord {
-  color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
-  background-color: #829df8;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-  float: left 10px;
-  left: 826px;
-}
-
-.button.discord:hover {
-  color: #fff;
-  background-color: #6b80cc;
-}
-
-.button.youtube {
-  color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
-  background-color: #f60000;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-  float: left 10px;
-  left: 926px;
-}
-
-.button.youtube:hover {
-  color: #fff;
-  background-color: #c70000;
-}
-
-.button.twitch {
-  color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
-  background-color: #cc00ff;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-  float: left 10px;
-  left: 1035px;
-}
-
-.button.twitch:hover {
-  color: #fff;
-  background-color: #8700bd;
-}
-
-.loader {
-    position: fixed;
-    z-index: 999999;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #06090f;
-}
+      audio {
+        color: #0066ff;
+        position: fixed;
+        top: 520px;
+        right: 35px;
+      }
+      
+      .title {
+        color: #fff;
+        position: fixed;
+        top: 310px;
+        right: 135px;
+        font-size: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+      }
+      
+      .title:hover {
+        color: rgb(255, 0, 98);
+        position: fixed;
+        top: 310px;
+        right: 135px;
+        font-size: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+      }
+      
+      .dairesel {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        border: 5px solid #0d1117;
+        position: fixed;
+        top: 150px;
+        right: 115px;
+        transition: all 0.3s;
+        background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/150x150.jpg) no-repeat;
+        }
+      
+      .dairesel:hover {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        border: 5px solid #ff0062;
+        position: fixed;
+        top: 150px;
+        right: 115px;
+        background: url(https://raw.githubusercontent.com/sazaq/sazaq.github.io/main/150x150.gif) no-repeat;
+        }
+      
+      .button {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #efc20f;
+        font-size: 15px;
+        padding: 10px 24px;
+        border-radius: 2px;
+        transition-duration: 0.4s;
+        float: right 20px;
+        position: fixed;
+        top: 450px;
+        float: left 10px;
+      }
+        
+      .button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
+        
+      .button.instagram {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #F58529;
+        font-size: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        top: 400px;
+        float: left 10px;
+        left: 3px;
+      }
+      
+      .button.instagram:hover {
+        color: #fff;
+        background-color: #df7927;
+      }
+      
+      .button.snapchat {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #dbd800;
+        font-size: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        top: 400px;
+        float: left 10px;
+        left: 89px;
+      }
+      
+      .button.snapchat:hover {
+        color: #fff;
+        background-color: #b9b602;
+      }
+      
+      .button.twitter {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #08a0e9;
+        font-size: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        top: 400px;
+        float: left 10px;
+        left: 171px;
+      }
+      
+      .button.twitter:hover {
+        color: #fff;
+        background-color: #0084B4;
+      }
+      
+      .button.twitch {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #cc00ff;
+        font-size: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        top: 400px;
+        float: left 10px;
+        left: 240px;
+      }
+      
+      .button.twitch:hover {
+        color: #fff;
+        background-color: #8700bd;
+      }  
+      .button.tiktok {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #EE1D52;
+        font-size: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        top: 400px;
+        float: left 10px;
+        left: 308px;
+      }
+      
+      .button.tiktok:hover {
+        color: #fff;
+        background-color: #d31a48;
+      }
+      
+      .loader {
+          position: fixed;
+          z-index: 999999;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #06090f;
+      }
+    }
